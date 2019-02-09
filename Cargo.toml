@@ -1,0 +1,10 @@
+[package]
+name = "tymodem"
+version = "0.2.0"
+authors = ["Tommy van der Vorst <tommy@pixelspark.nl>"]
+edition = "2018"
+
+[dependencies]
+serialport = "3.2.0"
+clap = "*"
+regex = "1"
