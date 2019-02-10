@@ -4,7 +4,9 @@ Read connection information from Huawei E3372s LTE dongle and print to console.
 
 ## Usage
 
-`cargo run`
+### Command-line version
+
+`cargo run --bin tymodem-cli`
 
 Will output:
 
@@ -16,6 +18,10 @@ Every second.
 
 By default, tymodem will read data from `/dev/cu.HUAWEIMobile-Pcui`, which is the port available for 
 querying the stick on Mac.
+
+### GUI version
+
+`cargo run --bin tymodem-gui`
 
 ## Compatibility
 

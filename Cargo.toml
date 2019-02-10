@@ -8,3 +8,12 @@ edition = "2018"
 serialport = "3.2.0"
 clap = "*"
 regex = "1"
+iui = { git = "https://github.com/rust-native-ui/libui-rs.git" }
+
+[[bin]]
+name = "tymodem-cli"
+path = "src/tymodem-cli.rs"
+
+[[bin]]
+name = "tymodem-gui"
+path = "src/tymodem-gui.rs"

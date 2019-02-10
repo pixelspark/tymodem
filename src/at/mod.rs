@@ -1,5 +1,8 @@
 use std::fmt::Display;
 
+mod modem;
+pub use self::modem::*;
+
 #[derive(Clone)]
 pub struct ModemState {
 	pub mcc: Option<i64>,
